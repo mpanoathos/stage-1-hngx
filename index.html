@@ -11,11 +11,16 @@
         <i class="fas fa-sun" id="mode-toogle"></i> <!-- Replace this with the desired icon -->
     <div class="my_profile">
         <span><img src="image.jpg" data-testid="slackDisplayImage"></span>
-        <p data-testid="slackUserName"><b>Name:</b> Mpano Athos</p>
-        <p data-testid="currentDayOfTheWeek"><b>Current Day:</b> <span id="current-date"></span></p>
-        <p data-testid="currentUTCTime"><b>Current Time:</b> <span id="current-time"></span></p>
-        <p data-testid="myTrack"><b>Track:</b> Front-End</p>
-        <p data-testid="githubURL"><b>Github Link: </b><a href="https://github.com/mpanoathos" target="_blank">https://github.com/mpanoathos</a></p>
+        <div class="info">
+        <p data-testid="slackUserName" class="user-name"><b>Mpano Athos</b></p>
+        <p data-testid="currentDayOfTheWeek"><span class="far fa-calendar"></span> <b><span id="current-date"></span></b></p>
+        <p data-testid="currentUTCTime"><span class="far fa-clock"></span> <b><span id="current-time"></span></b></p>
+        <p data-testid="myTrack" class="track"><b>Front-End</b></p>
+        <p data-testid="githubURL" class="urls"><a href="https://github.com/mpanoathos" target="_blank"  rel="noopener noreferrer"><span class="fab fa-github"></span></a>
+        <a href="https://www.linkedin.com/in/mpano-athos-51173b198/" target="_blank" rel="noopener noreferrer"><span class="fab fa-linkedin"></span></a>
+        <a href="https://twitter.com/mpano_athos" target="_blank" rel="noopener noreferrer"><span class="fab fa-twitter"></span></a>
+    </p>
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
